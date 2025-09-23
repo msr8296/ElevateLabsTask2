@@ -1,0 +1,34 @@
+Sample Phishing Email:
+
+From: PayPal Security <support@paypa1.com>
+To: user@example.com
+Subject: Urgent: Verify Your Account Immediately
+
+Dear Customer,
+
+We detected unusual activity in your account. To prevent suspension, please verify your account details immediately.
+Click the link below to confirm your identity:
+
+https://secure-paypal-login.com/verify
+
+Failure to act within 24 hours will result in permanent account closure.
+
+Thank you,
+PayPal Support Team
+
+Attachment: Verify_Details.docx
+
+
+- The sender's email looks like PayPal but the domain is paypa1.com, (the l is replaced with 1). This is fake.
+- The email asks you to click a link that is not on the real PayPal website.
+- It uses urgent language ("24 hours", "account closure") to scare you into acting fast.
+- There's an attachment (Verify_Details.docx) which could contain malware.
+- The greeting is generic ("Dear Customer") instead of using your name.
+- The email likely fails email security checks (SPF/DKIM/DMARC) and may be sent from an unauthorized server.
+
+What to do 
+1. Do NOT click the link or open the attachment.
+2. Do not reply to the email.
+3. Check your account by typing the official website address (paypal.com) into your browser or using the official app.
+4. Forward the email to PayPal's official phishing report address (e.g., spoof@paypal.com) if you use PayPal.
+5. Delete the email after reporting it.
